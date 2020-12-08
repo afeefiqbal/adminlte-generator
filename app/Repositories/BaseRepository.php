@@ -6,7 +6,7 @@ use Illuminate\Container\Container as Application;
 use Illuminate\Database\Eloquent\Model;
 
 
-abstract class BaseRepository extends PAVRepository
+abstract class BaseRepository
 {
     /**
      * @var Model

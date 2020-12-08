@@ -165,8 +165,10 @@ return [
         Barryvdh\Snappy\ServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         Yajra\Datatables\DatatablesServiceProvider::class,
-Yajra\Datatables\ButtonsServiceProvider::class,
-Yajra\Datatables\HtmlServiceProvider::class,
+        Yajra\Datatables\ButtonsServiceProvider::class,
+        Yajra\Datatables\HtmlServiceProvider::class,
+        Yajra\DataTables\ButtonsServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
         /*
          * Package Service Providers...
          */
